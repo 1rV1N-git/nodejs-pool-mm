@@ -156,7 +156,7 @@ CREATE TABLE `users` (
   `enable_payout` tinyint(1) DEFAULT '1',
   `telegram_id` varchar(20) DEFAULT NULL,
   `enable_tlg` tinyint(1) DEFAULT '1',
-  `enable_tlg_payout` tinyint(1) DEFAULT '1'
+  `enable_tlg_payout` tinyint(1) DEFAULT '1',
   PRIMARY KEY (`id`),
   UNIQUE KEY `users_id_uindex` (`id`),
   UNIQUE KEY `users_username_uindex` (`username`)
