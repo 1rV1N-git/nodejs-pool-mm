@@ -32,5 +32,13 @@
     "name": "TurtleCoin",
     "mixIn": 1,
     "shortCode": "TRTL"
+  },
+  "fno": {
+    "funcFile": "./lib/coins/fno.js",
+    "paymentFile": "./payment_systems/fno.js",
+    "sigDigits": 1000000000000,
+    "name": "Fonero",
+    "mixIn": 13,
+    "shortCode": "FNO"
   }
 }
