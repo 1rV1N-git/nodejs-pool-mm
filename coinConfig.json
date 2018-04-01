@@ -42,8 +42,8 @@
     "shortCode": "FNO"
   },
     "grft": {
-    "funcFile": "./lib/coins/grf.js",
-    "paymentFile": "./payment_systems/grf.js",
+    "funcFile": "./lib/coins/grft.js",
+    "paymentFile": "./payment_systems/grft.js",
     "sigDigits": 10000000000,
     "name": "Graft",
     "mixIn": 5,
