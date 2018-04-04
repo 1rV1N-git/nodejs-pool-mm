@@ -58,5 +58,13 @@
     "name": "Stellite",
     "mixIn": 3,
     "shortCode": "XTL"
+  },
+    "dero": {
+    "funcFile": "./lib/coins/dero.js",
+    "paymentFile": "./payment_systems/dero.js",
+    "sigDigits": 1000000000000,
+    "name": "Dero",
+    "mixIn": 5,
+    "shortCode": "DERO"
   }
 }
