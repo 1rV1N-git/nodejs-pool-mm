@@ -48,5 +48,15 @@
     "name": "Graft",
     "mixIn": 5,
     "shortCode": "GRFT"
+  },
+    "xtl": {
+    "funcFile": "./lib/coins/xtl.js",
+    "paymentFile": "./payment_systems/xtl.js",
+    "sigDigits": 100,
+    "shapeshift": "xtl_btc",
+    "xmrTo": false,
+    "name": "Stellite",
+    "mixIn": 3,
+    "shortCode": "XTL"
   }
 }
