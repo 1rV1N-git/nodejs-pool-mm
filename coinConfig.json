@@ -32,5 +32,47 @@
     "name": "Aeon Coin",
     "mixIn": 4,
     "shortCode": "AEON"
+  },
+  "trtl": {
+    "funcFile": "./lib/coins/trtl.js",
+    "paymentFile": "./payment_systems/trtl.js",
+    "sigDigits": 100,
+    "name": "TurtleCoin",
+    "mixIn": 1,
+    "shortCode": "TRTL"
+  },
+  "fno": {
+    "funcFile": "./lib/coins/fno.js",
+    "paymentFile": "./payment_systems/fno.js",
+    "sigDigits": 1000000000000,
+    "name": "Fonero",
+    "mixIn": 13,
+    "shortCode": "FNO"
+  },
+    "grft": {
+    "funcFile": "./lib/coins/grft.js",
+    "paymentFile": "./payment_systems/grft.js",
+    "sigDigits": 10000000000,
+    "name": "Graft",
+    "mixIn": 5,
+    "shortCode": "GRFT"
+  },
+    "xtl": {
+    "funcFile": "./lib/coins/xtl.js",
+    "paymentFile": "./payment_systems/xtl.js",
+    "sigDigits": 100,
+    "shapeshift": "xtl_btc",
+    "xmrTo": false,
+    "name": "Stellite",
+    "mixIn": 3,
+    "shortCode": "XTL"
+  },
+    "dero": {
+    "funcFile": "./lib/coins/dero.js",
+    "paymentFile": "./payment_systems/dero.js",
+    "sigDigits": 1000000000000,
+    "name": "Dero",
+    "mixIn": 5,
+    "shortCode": "DERO"
   }
 }
