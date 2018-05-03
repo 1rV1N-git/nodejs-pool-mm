@@ -74,5 +74,13 @@
     "name": "Dero",
     "mixIn": 5,
     "shortCode": "DERO"
+  },
+    "lok": {
+    "funcFile": "./lib/coins/lok.js",
+    "paymentFile": "./payment_systems/lok.js",
+    "sigDigits": 1000000000,
+    "name": "Loki",
+    "mixIn": 10,
+    "shortCode": "LOK"
   }
 }
