@@ -90,5 +90,15 @@
     "name": "Bitsum",
     "mixIn": 1,
     "shortCode": "BSM"
+  },
+ "xmv": {
+    "funcFile": "./lib/coins/xmv.js",
+    "paymentFile": "./payment_systems/xmv.js",
+    "sigDigits": 100000000000,
+    "shapeshift": "xmr_btc",
+    "xmrTo": false,
+    "name": "MoneroV",
+    "mixIn": 7,
+    "shortCode": "XMV"
   }
 }
