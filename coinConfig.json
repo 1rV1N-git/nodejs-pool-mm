@@ -100,5 +100,15 @@
     "name": "MoneroV",
     "mixIn": 7,
     "shortCode": "XMV"
+  },
+ "bloc": {
+    "funcFile": "./lib/coins/bloc.js",
+    "paymentFile": "./payment_systems/bloc.js",
+    "sigDigits": 10000,
+    "shapeshift": "bloc_btc",
+    "xmrTo": false,
+    "name": "BLOC",
+    "mixIn": 1,
+    "shortCode": "BLOC"
   }
 }
