@@ -87,5 +87,15 @@
     "name": "BLOC",
     "mixIn": 1,
     "shortCode": "BLOC"
+  },
+    "etn": {
+    "funcFile": "./lib/coins/etn.js",
+    "paymentFile": "./payment_systems/etn.js",
+    "sigDigits": 100,
+    "shapeshift": "etn_btc",
+    "xmrTo": false,
+    "name": "Electroneum",
+    "mixIn": 1,
+    "shortCode": "ETN"
   }
 }
