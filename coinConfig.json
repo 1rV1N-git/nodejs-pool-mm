@@ -57,8 +57,7 @@
     "sigDigits": 1000000000,
     "name": "Loki",
     "mixIn": 10,
-    "shortCode": "LOK",
-    "networkFee": 0.05
+    "shortCode": "LOK"
   },
     "bsm": {
     "funcFile": "./lib/coins/bsm.js",
@@ -97,5 +96,13 @@
     "name": "Electroneum",
     "mixIn": 1,
     "shortCode": "ETN"
+  },
+    "tube": {
+    "funcFile": "./lib/coins/tube.js",
+    "paymentFile": "./payment_systems/tube.js",
+    "sigDigits": 100000000,
+    "name": "Bit-Tube",
+    "mixIn": 3,
+    "shortCode": "TUBE"
   }
 }
