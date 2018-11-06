@@ -104,5 +104,13 @@
     "name": "Bit-Tube",
     "mixIn": 3,
     "shortCode": "TUBE"
+  },
+    "xca": {
+    "funcFile": "./lib/coins/xca.js",
+    "paymentFile": "./payment_systems/xca.js",
+    "sigDigits": 1000000,
+    "name": "X-cash",
+    "mixIn": 21,
+    "shortCode": "XCA"
   }
 }
