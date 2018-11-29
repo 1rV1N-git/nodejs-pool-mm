@@ -44,7 +44,8 @@ CREATE TABLE `block_log` (
   `major_version` int(11) DEFAULT NULL,
   `minor_version` int(11) DEFAULT NULL,
   PRIMARY KEY (`hex`),
-  UNIQUE KEY `block_log_hex_uindex` (`hex`)
+  UNIQUE KEY `block_log_hex_uindex` (`hex`),
+  INDEX `diff` (`find_time`, `difficulty`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 CREATE TABLE `config` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
