@@ -112,5 +112,13 @@
     "name": "X-cash",
     "mixIn": 21,
     "shortCode": "XCA"
+  },
+    "xhv": {
+    "funcFile": "./lib/coins/xhv.js",
+    "paymentFile": "./payment_systems/xhv.js",
+    "sigDigits": 1000000000000,
+    "name": "haven-protocol",
+    "mixIn": 8,
+    "shortCode": "XHV"
   }
 }
