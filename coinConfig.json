@@ -110,7 +110,7 @@
     "paymentFile": "./payment_systems/xca.js",
     "sigDigits": 1000000,
     "name": "X-cash",
-    "mixIn": 21,
+    "mixIn": 20,
     "shortCode": "XCA"
   },
     "xhv": {
