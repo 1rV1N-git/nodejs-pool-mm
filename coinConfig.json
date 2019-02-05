@@ -120,5 +120,13 @@
     "name": "haven-protocol",
     "mixIn": 8,
     "shortCode": "XHV"
-  }
+  },
+  "upx": {
+  "funcFile": "./lib/coins/upx.js",
+  "paymentFile": "./payment_systems/upx.js",
+  "sigDigits": 1000000000000,
+  "name": "uPlexa",
+  "mixIn": 10,
+  "shortCode": "UPX"
+}
 }
